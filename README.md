@@ -1,26 +1,6 @@
-# Sandwich Club Project Starter Code
+# SandwitchClub_me
+I have tried to apply all the required tasks from me in this project but until now I'm facing the issue that Json String Array Saved in the Strings file is not returning all the data despite me trying many solutions and many ways to retrieve the data from the json string. However, The code runs smoothly without crashing or errors and I think the logic of the code also is working alright except the missed data issue from the json String.
 
-## Project Overview
-In this project, you will complete the **Sandwich Club** app to
-show the details of each sandwich once it is selected.
+The project Main Milestones to apply are as follows:
 
-## Why this Project
-
-Building a layout and populating its fields from data received as JSON
-is a common task for Android Developers. Although JSON parsing is usually
-done using libraries, writing the JSON parsing for  this project will
-help you to better understand how it is processed.
-
-## What Will I Learn?
-Through this project, you will:
-- Learn how to submit projects for review
-- Practice JSON parsing to a model object
-- Design an activity layout
-- Populate all fields in the layout accordingly
-
-## How Do I Complete this Project?
-Download the [Sandwich Club app starter code.](https://github.com/udacity/sandwich-club-starter-code)
-
-Design the layout for the detail activity so the different elements
-display in a sensible way. Implement the JSON parsing in JsonUtils so it
-produces a Sandwich Object that can be used to populate the UI that you designed.
+Design the layout for the detail activity so the different elements display in a sensible way. Implement the JSON parsing in JsonUtils so it produces a Sandwich Object that can be used to populate the UI that you designed.
