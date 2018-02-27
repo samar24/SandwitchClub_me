@@ -37,10 +37,10 @@ public class JsonUtils {
             JSONObject jsonObjectName = data.getJSONObject(NAME);
             mainName=jsonObjectName.optString(MAIN_NAME);
 
-            placeOfOrigin=jsonObjectName.optString(PLACE_ORIGIN);
-            description=jsonObjectName.optString(DESCRIPTION);
-            image=jsonObjectName.optString(IMAGE);
-            ingredients = jsonObjectName.getJSONArray(INGREDIENTS);
+            placeOfOrigin=data.optString(PLACE_ORIGIN);
+            description=data.optString(DESCRIPTION);
+            image=data.optString(IMAGE);
+            ingredients = data.getJSONArray(INGREDIENTS);
             alsoKnownAs=jsonObjectName.getJSONArray(ALSO_KNOWN_AS);
             stringArray_AlsoKnownAs = FromJsonArraytoArrayList(alsoKnownAs);
             stringArray_Ingredients = FromJsonArraytoArrayList(ingredients);
